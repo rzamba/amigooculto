@@ -14,9 +14,9 @@ Script em python para geração de sorteio de amigo oculto
 ## Comandos
 
 Lista o Help
-```$ python amigo_oculto.py -h```
+```shel $ python amigo_oculto.py -h``
 
-## Executa o sorteio em modo aleatório
+Executa o sorteio em modo aleatório
 python amigo_oculto.py -a participantes.csv
 
 
