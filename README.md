@@ -15,21 +15,21 @@ Desenvolvido com Python 2.7.2
 
 ## Comandos
 
-Lista o Help
-```$ python amigo_oculto.py -h```
-
-Sorteio em modo aleatório
-```$python amigo_oculto.py -a participantes.csv```
-
-Sorteio em modo flow contínuo para entrega de presentes
-```$python amigo_oculto.py -a participantes.csv -m sem_quebra```
+> Lista o Help
+> ```$ python amigo_oculto.py -h```
+>
+> Sorteio em modo aleatório
+> ```$python amigo_oculto.py -a participantes.csv```
+>
+> Sorteio em modo flow contínuo para entrega de presentes
+> ```$python amigo_oculto.py -a participantes.csv -m sem_quebra```
 
 ## Resultado do sorteio
 
-Fica contido no diretorio resultado_sorteio com os arquivos nomeados com os emails que devem ser enviados, ao receber abrindo o arquivo você descobre quem é seu amigo oculto
-
-Exemplo:
-
-Arquivo gerado: **paulo@amigo.com.txt**
-
-Conteúdo do arquivo gerado:   **paulo seu amigo oculto é amanda**
+>Fica contido no diretorio resultado_sorteio com os arquivos nomeados com os emails que devem ser enviados, ao receber abrindo o arquivo você descobre quem é seu amigo oculto
+>
+>Exemplo:
+>
+>Arquivo gerado: **paulo@amigo.com.txt**
+>
+>Conteúdo do arquivo gerado:   **paulo seu amigo oculto é amanda**
