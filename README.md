@@ -3,7 +3,7 @@ Script em python para geração de sorteio de amigo oculto, com geração de arq
 
 Desenvolvido com Python 2.7.2
 
-## Formato do arquivo csv de participantes (nome,email sem header)
+## Formato do arquivo csv de participantes sem header (nome,email)
 
 >rubens,rubens@corp.globo.com </br>
 >dudu,eduprojetos10@gmail.com </br>
