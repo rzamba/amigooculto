@@ -5,12 +5,12 @@ Desenvolvido com Python 2.7.2
 
 ## Formato do arquivo csv de participantes (nome,email sem header)
 
->rubens,rubens@corp.globo.com
->dudu,eduprojetos10@gmail.com
->leticia,leticia.ribeiro@maededeus.com.br
->fabiola,fabiola.oliver@globo.com
->amanda,amanda.zamba@gmail.com
->mariana,mariesaravya@gmail.com
+> rubens,rubens@corp.globo.com </br>
+> dudu,eduprojetos10@gmail.com </br>
+> leticia,leticia.ribeiro@maededeus.com.br </br>
+> fabiola,fabiola.oliver@globo.com </br>
+> amanda,amanda.zamba@gmail.com </br>
+> mariana,mariesaravya@gmail.com </br>
 
 
 ## Comandos
