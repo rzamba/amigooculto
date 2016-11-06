@@ -1,5 +1,7 @@
-# amigooculto
-Script em python para geração de sorteio de amigo oculto
+# Amigo Oculto
+Script em python para geração de sorteio de amigo oculto, com geração de arquivos para posterior envio por email para os participantes.
+
+Desenvolvido com Python 2.7.2
 
 ## Formato do arquivo csv de participantes (nome,email sem header)
 
