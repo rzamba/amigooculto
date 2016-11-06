@@ -23,6 +23,8 @@ Desenvolvido com Python 2.7.2
 >
 >Sorteio com flow contínuo para entrega de presentes
 >**```$python amigo_oculto.py -a participantes.csv -m sem_quebra```**
+>
+> Obs: Nesse modo a entrega de presente começa por um participante e termina com a entrega para do presente para o participante que iniciou, sem quebrar a corrente.
 
 ## Resultado do sorteio
 
