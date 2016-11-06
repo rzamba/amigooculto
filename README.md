@@ -16,10 +16,10 @@ Script em python para geração de sorteio de amigo oculto
 Lista o Help
 ```$ python amigo_oculto.py -h```
 
-Executa o sorteio em modo aleatório
+Sorteio em modo aleatório
 ```$python amigo_oculto.py -a participantes.csv```
 
-Executa o sorteio em modo flow contínuo para entrega de presentes
+Sorteio em modo flow contínuo para entrega de presentes
 ```$python amigo_oculto.py -a participantes.csv -m sem_quebra```
 
 ## Resultado do sorteio
