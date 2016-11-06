@@ -19,10 +19,10 @@ Desenvolvido com Python 2.7.2
 >**```$ python amigo_oculto.py -h```**
 >
 >Sorteio em modo aleatório
->```$python amigo_oculto.py -a participantes.csv```
+>**```$python amigo_oculto.py -a participantes.csv```**
 >
 >Sorteio com flow contínuo para entrega de presentes
->```$python amigo_oculto.py -a participantes.csv -m sem_quebra```
+>**```$python amigo_oculto.py -a participantes.csv -m sem_quebra```**
 
 ## Resultado do sorteio
 
