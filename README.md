@@ -3,18 +3,18 @@ Script em python para geração de sorteio de amigo oculto
 
 ## Formato do arquivo csv de participantes (nome,email sem header)
 
-rubens,rubens@corp.globo.com
-dudu,eduprojetos10@gmail.com
-leticia,leticia.ribeiro@maededeus.com.br
-fabiola,fabiola.oliver@globo.com
-amanda,amanda.zamba@gmail.com
-mariana,mariesaravya@gmail.com
+>rubens,rubens@corp.globo.com
+>dudu,eduprojetos10@gmail.com
+>leticia,leticia.ribeiro@maededeus.com.br
+>fabiola,fabiola.oliver@globo.com
+>amanda,amanda.zamba@gmail.com
+>mariana,mariesaravya@gmail.com
 
 
 ## Comandos
 
 Lista o Help
-python amigo_oculto.py -h
+`python amigo_oculto.py -h`
 
 ## Executa o sorteio em modo aleatório
 python amigo_oculto.py -a participantes.csv
