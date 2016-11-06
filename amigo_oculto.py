@@ -124,7 +124,7 @@ def prepara_sorteio_gera_saida(args):
 def main():
 	parser = argparse.ArgumentParser(description='Sorteio de amigo oculto')
 	parser.add_argument('-a', '--arq', required=True, help='Arquivo de participantes no formato nome,email')
-	parser.add_argument('-m', '--mode', required=False, default="sem_restricoes", help='São permitidos dois tipos de sorteio: totalmente aleatorio sem_restricoes (default) ou lista circular sem quebras sem_quebra')
+	parser.add_argument('-m', '--mode', required=False, default="sem_restricoes", help='São permitidos dois tipos de sorteio: totalmente aleatorio -m sem_restricoes (default) ou lista circular sem quebras -m sem_quebra')
 	args = parser.parse_args()
 	prepara_sorteio_gera_saida(args)
 
