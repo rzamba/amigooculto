@@ -19,7 +19,7 @@ Lista o Help
 Executa o sorteio em modo aleatório
 ```$python amigo_oculto.py -a participantes.csv```
 
-Executa o sorteio em modo lista circular (flow contínuo para entrega de presentes)
+Executa o sorteio em modo flow contínuo para entrega de presentes
 ```$python amigo_oculto.py -a participantes.csv -m sem_quebra```
 
 ## Resultado do sorteio
