@@ -16,7 +16,7 @@ Desenvolvido com Python 2.7.2
 ## Comandos
 
 >Lista o Help
->```$ python amigo_oculto.py -h```
+>*```$ python amigo_oculto.py -h```*
 >
 >Sorteio em modo aleatório
 >```$python amigo_oculto.py -a participantes.csv```
