@@ -4,15 +4,10 @@ Script em python para geração de sorteio de amigo oculto
 ## Formato do arquivo csv de participantes (nome,email sem header)
 
 rubens,rubens@corp.globo.com
-
 dudu,eduprojetos10@gmail.com
-
 leticia,leticia.ribeiro@maededeus.com.br
-
 fabiola,fabiola.oliver@globo.com
-
 amanda,amanda.zamba@gmail.com
-
 mariana,mariesaravya@gmail.com
 
 
@@ -34,6 +29,6 @@ Fica contido no diretorio resultado_sorteio com os arquivos nomeados com os emai
 
 Exemplo:
 
-Arquivo gerado: paulo@amigo.com.txt
+Arquivo gerado: **paulo@amigo.com.txt**
 
-Conteúdo do arquivo gerado:   paulo seu amigo oculto é amanda
+Conteúdo do arquivo gerado:   **paulo seu amigo oculto é amanda**
