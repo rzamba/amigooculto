@@ -34,3 +34,7 @@ Desenvolvido com Python 2.7.2
 >Arquivo gerado: **paulo@amigo.com.txt**
 >
 >Conteúdo do arquivo gerado:   **paulo seu amigo oculto é amanda**
+
+## Rodando os testes (no diretorio raiz)
+
+>**```$make test```**
