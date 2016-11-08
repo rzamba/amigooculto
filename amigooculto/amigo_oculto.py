@@ -2,6 +2,7 @@
 # amigo_oculto.py
 import argparse
 import os
+import sys
 from random import randint
 
 # cLass para objetos participante
@@ -91,8 +92,18 @@ def prepara_sorteio_gera_saida(args):
 	for line in f:
 		nome,email = line.split(",")
 		email = email.replace("\n", "")
-		lista_participantes.append(Participante(nome,email))
+		lista_participantes.append(Participante(nome.strip(),email.strip()))
 	f.close()
+
+	# valida nomes e emails repetidos
+	for participante in lista_participantes:
+		i = 0
+		for participanteaux in lista_participantes:
+			if (participante.nome == participanteaux.nome) or (participante.email == participanteaux.email):
+				i = i + 1
+		if i > 1:
+			print "participante duplicado para nome " +  participante.nome + " ou email " + participante.email
+			sys.exit(-1)
 
 	# gerando list de amigos
 	lista_amigos = list(lista_participantes)
